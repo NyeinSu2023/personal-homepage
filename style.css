@@ -1,0 +1,75 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  
+}
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 80px;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+h2{
+  font-family:'Orbitron', sans-serif;
+  font-size: 50px;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  margin: 20px;
+  border: 5px;
+  width: 550px;
+  padding: 10px;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#logo {
+  diplay: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 2px;
+  background: green;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Orbitron', sans-serif;
+  color: red;
+  }
+
+.c-site-header {
+  display:block;
+}
+
+.c-site-footer {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
